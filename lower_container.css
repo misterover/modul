@@ -1,0 +1,22 @@
+
+
+.lower_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+.footer-low {
+    width: 75%;
+    background-color: #db7878;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}

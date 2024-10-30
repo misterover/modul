@@ -1,0 +1,81 @@
+.upper-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.header-container {
+    display: flex;
+}
+.header_title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    color: #966969;
+    
+}
+.museum_icon {
+    width: 30%;
+}
+.search-form {
+    width: 70%;
+
+}
+.input-container {
+    display: flex;
+    border: 2px solid #431818;
+    width: 234px;
+    height: 36px;
+}
+
+.search-input {
+    font-size: 16px;
+    flex: 1;
+}
+
+.search-button {
+    background-color: #431818;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border:none;
+}
+
+.upper-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+}
+.fotos {
+    justify-content: space-between;
+    display: flex;
+}
+.foto_3 {
+    background: url("img/foto_3.jpg")no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-right:10px;
+}
+.foto_4 {
+    background: url("img/foto_4.jpg")no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.desc_content {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #584949;
+}
